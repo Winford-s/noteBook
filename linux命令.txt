@@ -1,0 +1,3 @@
+ps -ef | grep httpd                      查看线程
+
+kill -pid                                        杀掉线程
