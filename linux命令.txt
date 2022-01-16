@@ -1,3 +1,9 @@
-ps -ef | grep httpd                      查看线程
+ps -ef | grep httpd                       查看线程
 
 kill -pid                                        杀掉线程
+
+netstat -tunlp|grep 80                 查看端口
+
+kill -9 1072909                            杀掉端口
+
+tail -f -n 1000 nohup.out             查看日志
